@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Weather Analysis with Latitude</title>
+
+    <!-- Bootstrap core CSS -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" media="screen">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet"  href="../Web-HW/css/stylesheet.css"  media="screen">
+
+  </head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><font color="white">Latitude</font></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Plots
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="temp.html">Max Temperature</a>
+          <a class="dropdown-item" href="humidity.html">Humidity</a>
+          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+          <a class="dropdown-item" href="wind.html">Wind Speed</a>
+        </div>
+      </li>
+        <a class="nav-link" href="comparison.html">Comparison<span class="sr-only">(current)</span></a>
+  
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+    
+<div class="container com-container">
+    <article class="description-content row">
+    <div class="col-lg-12">
+        <h1 class="description-header">Comparison:Latitude vs X</h1>
+        <hr class="description-hr"/>
+        <p class="description-text">Click any plot to get an in-depth analysis.
+        </p>
+        </div>
+    </article>
+    </div>
+    <section class="row">
+    <div class="col-md-6" align="middle">
+    <h2 class="comparison-header" align="middle">vs.Max Temperature</h2>
+        <a href="temp.html" ><img src="../Web-HW/Image_Resource/temp_v_lat.png"  align="middle" class="comparison-image" ></a>
+        <hr/>
+        
+    </div>
+    <div class="col-md-6" align="middle">
+    <h2 class="comparison-header" align="middle">vs.Humidity</h2>
+        <a href="humidity.html"><img src="../Web-HW/Image_Resource/hum_v_lat.png" align="middle" class="comparison-image"></a>
+        <hr/>
+        
+    </div>
+    </section>
+    
+    <section class="row">
+    <div class="col-md-6" align="middle">
+    <h2 class="comparison-header" align="middle">vs.Cloudiness</h2>
+        <a href="cloudiness.html"><img src="../Web-HW/Image_Resource/cloud_v_lat.png" align="middle" class="comparison-image"></a>
+        <hr/>
+        
+    </div>
+    <div class="col-md-6" align="middle">
+    <h2 class="comparison-header" align="middle">vs.Wind Speed</h2>
+        <a href="wind.html"><img src="../Web-HW/Image_Resource/wind_v_lat.png" align="middle" class="comparison-image"></a>
+        <hr/>
+        
+    </div>
+    </section>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </body>
+</html>

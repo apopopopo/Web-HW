@@ -1,0 +1,63 @@
+.navbar-brand{background-color: #65bdb2;
+              color:white
+            
+      
+}
+
+.box {
+  height: 800px;
+  }
+  
+.box-left{padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;}
+    
+.box-right{padding-top: 50px;
+   }
+   
+.com-container{padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 5px;}
+
+.data-header{padding-top: 50px;
+}
+    
+
+.imageNav-photo{height: 140px;
+    width:140px;}
+    
+    
+.nav-link{ float: right;
+}
+
+.description-header{color:#65bdb2;
+}
+
+.comparison-header{color:#65bdb2;
+}
+
+h2 {font-size: 0.8rem;
+}
+
+
+.imageNav-header{color:#65bdb2;
+                 font-size: 2rem;
+}
+
+#descrption-image{height: 200px;
+    width:200px;
+    padding-right: 20px;
+ }
+.align-top { 
+    vertical-align: text-top;
+}
+
+
+.comparison-header{ font-size: 1.5rem
+}
+
+.data-header{ color: #65bdb2;
+}
+
